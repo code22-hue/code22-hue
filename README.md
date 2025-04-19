@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>The Code | Design Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
+
   <!-- Header -->
   <header class="bg-white shadow p-4 flex justify-between items-center">
     <h1 class="text-xl font-bold text-indigo-600">The Code</h1>
@@ -28,7 +29,7 @@
   <section class="max-w-4xl mx-auto p-6">
     <h3 class="text-2xl font-semibold mb-2">About Me</h3>
     <p>I’m Stephano, known as The Code. I’m a graphic designer, content creator, and storyteller passionate about visual communication that inspires and connects. I specialize in wall branding, logo design, poster design, sticker design, banner design, and creative marketing visuals.</p>
-    <p>With years of experience, I bring creativity to life through designs that speak for your brand, creating unique visuals that capture attention and engage audiences across various platforms.</p>
+    <p class="mt-2">With years of experience, I bring creativity to life through designs that speak for your brand, creating unique visuals that capture attention and engage audiences across various platforms.</p>
   </section>
 
   <!-- Projects -->
@@ -36,19 +37,18 @@
     <div class="max-w-6xl mx-auto px-6">
       <h3 class="text-2xl font-semibold mb-6">Featured Projects</h3>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <!-- Project cards -->
         <div class="bg-gray-100 p-4 rounded-lg shadow">
-          <img src="project1.jpg" alt="Logo Design" class="rounded mb-2">
+          <img src="images/project1.jpg" alt="Logo Design" class="rounded mb-2">
           <h4 class="font-bold">Logo for Local Café</h4>
           <p class="text-sm text-gray-600">Warm, vibrant and welcoming logo design for a small business in Musoma.</p>
         </div>
         <div class="bg-gray-100 p-4 rounded-lg shadow">
-          <img src="project2.jpg" alt="Wall Art" class="rounded mb-2">
+          <img src="images/project2.jpg" alt="Wall Art" class="rounded mb-2">
           <h4 class="font-bold">Wall Branding</h4>
           <p class="text-sm text-gray-600">Creative and inspirational wall designs for an office space.</p>
         </div>
         <div class="bg-gray-100 p-4 rounded-lg shadow">
-          <img src="project3.jpg" alt="Social Media Design" class="rounded mb-2">
+          <img src="images/project3.jpg" alt="Social Media Design" class="rounded mb-2">
           <h4 class="font-bold">Social Media Visuals</h4>
           <p class="text-sm text-gray-600">Engaging and branded content for digital marketing.</p>
         </div>
@@ -57,17 +57,40 @@
   </section>
 
   <!-- Services -->
-  <section id="services" class="max-w-4xl mx-auto p-6">
+  <section id="services" class="max-w-6xl mx-auto p-6">
     <h3 class="text-2xl font-semibold mb-4">Services</h3>
-    <ul class="list-disc list-inside space-y-2">
-      <li>Custom Logo Design</li>
-      <li>Wall Branding & Murals</li>
-      <li>Social Media Graphics</li>
-      <li>Poster Design</li>
-      <li>Sticker Design</li>
-      <li>Banner Design</li>
-      <li>Personalized Visual Campaigns</li>
-    </ul>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-4 rounded shadow text-center">
+        <img src="images/logo-design.jpg" alt="Logo Design" class="w-full h-40 object-cover rounded mb-3">
+        <h4 class="font-bold mb-1">Custom Logo Design</h4>
+        <p class="text-sm text-gray-600">Unique and professional brand identities.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow text-center">
+        <img src="images/wall-branding.jpg" alt="Wall Branding" class="w-full h-40 object-cover rounded mb-3">
+        <h4 class="font-bold mb-1">Wall Branding & Murals</h4>
+        <p class="text-sm text-gray-600">Transforming spaces with powerful visuals.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow text-center">
+        <img src="images/social-media.jpg" alt="Social Media" class="w-full h-40 object-cover rounded mb-3">
+        <h4 class="font-bold mb-1">Social Media Graphics</h4>
+        <p class="text-sm text-gray-600">Branded content for online platforms.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow text-center">
+        <img src="images/poster.jpg" alt="Poster Design" class="w-full h-40 object-cover rounded mb-3">
+        <h4 class="font-bold mb-1">Poster Design</h4>
+        <p class="text-sm text-gray-600">Creative designs for events and ads.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow text-center">
+        <img src="images/sticker.jpg" alt="Sticker Design" class="w-full h-40 object-cover rounded mb-3">
+        <h4 class="font-bold mb-1">Sticker Design</h4>
+        <p class="text-sm text-gray-600">Custom stickers for brands and products.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow text-center">
+        <img src="images/banner.jpg" alt="Banner Design" class="w-full h-40 object-cover rounded mb-3">
+        <h4 class="font-bold mb-1">Banner Design</h4>
+        <p class="text-sm text-gray-600">Banners for events, shops and promotions.</p>
+      </div>
+    </div>
   </section>
 
   <!-- Testimonials -->
@@ -75,13 +98,19 @@
     <div class="max-w-4xl mx-auto px-6">
       <h3 class="text-2xl font-semibold mb-6">What Clients Say</h3>
       <div class="space-y-4">
-        <div class="bg-white p-4 rounded shadow">
-          <p class="italic">“The Code turned my vision into a masterpiece. The logo he created speaks volumes.”</p>
-          <p class="mt-2 font-semibold">— Amina, Café Owner</p>
+        <div class="bg-white p-4 rounded shadow flex items-start gap-4">
+          <img src="images/client1.jpg" alt="Amina" class="w-16 h-16 rounded-full object-cover">
+          <div>
+            <p class="italic">“The Code turned my vision into a masterpiece. The logo he created speaks volumes.”</p>
+            <p class="mt-2 font-semibold">— Amina, Café Owner</p>
+          </div>
         </div>
-        <div class="bg-white p-4 rounded shadow">
-          <p class="italic">“Wall branding in our office changed the whole vibe. Professional and powerful.”</p>
-          <p class="mt-2 font-semibold">— John, Startup Founder</p>
+        <div class="bg-white p-4 rounded shadow flex items-start gap-4">
+          <img src=".jpg" alt="Dullingham" class="w-16 h-16 rounded-full object-cover">
+          <div>
+            <p class="italic">“Your logo in our office changed the whole vibe. Professional and powerful.”</p>
+            <p class="mt-2 font-semibold">— @dullingham, Startup Founder kazi yako ni mzuri sana kaka </p>
+          </div>
         </div>
       </div>
     </div>
@@ -90,13 +119,17 @@
   <!-- Contact -->
   <section id="contact" class="max-w-4xl mx-auto p-6">
     <h3 class="text-2xl font-semibold mb-4">Contact Me</h3>
-    <p>Email: <a href="mailto:thecode.designs@gmail.com" class="text-indigo-600">thecode.designs@gmail.com</a></p>
+    <p>Email: <a href="mailto: codet1033@gmail.com" class="text-indigo-600">thecode.designs@gmail.com</a></p>
     <p>WhatsApp: <a href="https://wa.me/255676315097" class="text-indigo-600">+255 676 315 097</a></p>
     <p>Instagram: <a href="https://instagram.com/phanjr22" class="text-indigo-600">@phanjr22</a></p>
     <p>Facebook: <a href="https://facebook.com/phanjr22" class="text-indigo-600">@phanjr22</a></p>
     <p>Twitter: <a href="https://twitter.com/phanjr22" class="text-indigo-600">@phanjr22</a></p>
   </section>
 
-  <footer class="text-center py-6 text-sm text-gray-500">© 2025 The Code. All rights reserved.</footer>
+  <!-- Footer -->
+  <footer class="text-center py-6 text-sm text-gray-500">
+    © 2025 The Code. All rights reserved.
+  </footer>
+
 </body>
 </html>
