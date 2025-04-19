@@ -6,7 +6,7 @@
   <title>The Code | Design Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body class="bg-gray-50 text-gray-800 font-sanshttps://www.dropbox.com/scl/fi/gkha8dvoa7iuglvo24583/1732733642728.jpg?rlkey=o4zst6gauoocxjgp8j7e082gu&st=slmjavso&dl=0">
 
   <!-- Header -->
   <header class="bg-white shadow p-4 flex justify-between items-center">
